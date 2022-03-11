@@ -8,7 +8,7 @@ Rust 的编译器之严格，可以说是举世无双。特别是在所有权方
 
 ## Cell
 
-`Cell` 和 `RefCell` 在功能上没有区别，区别在于 `Cell<T>` 适用于 `T` 实现 `Copy` 的情况：
+`Cell` 和 `RefCell` 在功能上没有区别，区别在于 `Cell<T>` 适用于 `T` 实现 `Copy` 的情况：(Cell现在已经不要求T实现Copy trait了)
 
 ```rust
 use std::cell::Cell;
